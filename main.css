@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 0;
+    background-color: #c20b0b;
+    color: aliceblue;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+    margin-right: auto;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body input textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 25px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #c20b0b;
+}
+
+section {
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 50px;
+    width: 850px;
+}
+.social img {
+    height: 24px;
+}
+
+#Contact .container {
+    display: block;
+}
+
+.Contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #c20b0b;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c20b0b;
+}
+
+input:focus, textarea:focus {
+    outline-color: #c20b0b;
+}
+
+footer {
+    background-color: #c20b0b;
+    color: aliceblue;
+    padding: 16px;
+}
+
+.social {
+    display: inline;
+    margin-right: 8px;
+}
+
+body {
+    background-color: rgb(175, 170, 170);
+}
